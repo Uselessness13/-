@@ -107,5 +107,11 @@ namespace Базы_даных_лабораторная_2
             Poisk po = new Базы_даных_лабораторная_2.Poisk();
             po.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Wordec wo = new Wordec();
+            wo.Show();
+        }
     }
 }

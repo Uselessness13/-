@@ -56,14 +56,14 @@
             // 
             this.firststudensshifr.Location = new System.Drawing.Point(103, 10);
             this.firststudensshifr.Name = "firststudensshifr";
-            this.firststudensshifr.Size = new System.Drawing.Size(204, 20);
+            this.firststudensshifr.Size = new System.Drawing.Size(70, 20);
             this.firststudensshifr.TabIndex = 1;
             // 
             // secondnameofsubject
             // 
             this.secondnameofsubject.Location = new System.Drawing.Point(128, 47);
             this.secondnameofsubject.Name = "secondnameofsubject";
-            this.secondnameofsubject.Size = new System.Drawing.Size(179, 20);
+            this.secondnameofsubject.Size = new System.Drawing.Size(81, 20);
             this.secondnameofsubject.TabIndex = 3;
             // 
             // label2
@@ -79,7 +79,7 @@
             // 
             this.secondnumberofgroup.Location = new System.Drawing.Point(103, 73);
             this.secondnumberofgroup.Name = "secondnumberofgroup";
-            this.secondnumberofgroup.Size = new System.Drawing.Size(204, 20);
+            this.secondnumberofgroup.Size = new System.Drawing.Size(70, 20);
             this.secondnumberofgroup.TabIndex = 5;
             // 
             // label3
@@ -93,9 +93,9 @@
             // 
             // thirdnameofsubject
             // 
-            this.thirdnameofsubject.Location = new System.Drawing.Point(128, 134);
+            this.thirdnameofsubject.Location = new System.Drawing.Point(103, 134);
             this.thirdnameofsubject.Name = "thirdnameofsubject";
-            this.thirdnameofsubject.Size = new System.Drawing.Size(179, 20);
+            this.thirdnameofsubject.Size = new System.Drawing.Size(70, 20);
             this.thirdnameofsubject.TabIndex = 7;
             // 
             // label4
@@ -103,15 +103,15 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(13, 137);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(109, 13);
+            this.label4.Size = new System.Drawing.Size(74, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Название предмета";
+            this.label4.Text = "Год обучения";
             // 
             // thirdshifrsudenta
             // 
             this.thirdshifrsudenta.Location = new System.Drawing.Point(103, 108);
             this.thirdshifrsudenta.Name = "thirdshifrsudenta";
-            this.thirdshifrsudenta.Size = new System.Drawing.Size(204, 20);
+            this.thirdshifrsudenta.Size = new System.Drawing.Size(70, 20);
             this.thirdshifrsudenta.TabIndex = 9;
             // 
             // label5
@@ -125,9 +125,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(324, 8);
+            this.button1.Location = new System.Drawing.Point(179, 7);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 23);
+            this.button1.Size = new System.Drawing.Size(145, 23);
             this.button1.TabIndex = 10;
             this.button1.Text = "Первый";
             this.button1.UseVisualStyleBackColor = true;
@@ -135,27 +135,29 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(324, 47);
+            this.button2.Location = new System.Drawing.Point(215, 47);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(109, 46);
             this.button2.TabIndex = 11;
             this.button2.Text = "Второй";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(324, 108);
+            this.button3.Location = new System.Drawing.Point(179, 108);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(109, 46);
+            this.button3.Size = new System.Drawing.Size(145, 46);
             this.button3.TabIndex = 12;
             this.button3.Text = "Третий";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Wordec
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(445, 160);
+            this.ClientSize = new System.Drawing.Size(332, 167);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
