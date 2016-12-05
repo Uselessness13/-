@@ -20,15 +20,28 @@ namespace Базы_даных_лабораторная_2
         {
             String name;
             String mark;
-            List<string> one = new List<string>();
-            List<string> two = new List<string>();
+            List<String> one = new List<String>();
+            List<String> two = new List<String>();
 
             command = new dabse.OleDbCommand("Select Дисциплины.Название, Дисциплины_обучение.Балл From Дисциплины, Дисциплины_обучение, Студенты Where Дисциплины.Код = Дисциплины_обучение.Код_дисциплины and Студенты.Шифр = Дисциплины_обучение.Шифр_студента and Студенты.Шифр = " + firststudensshifr.Text, Date_baseone);
+            dabse.OleDbDataReader result = command.ExecuteReader();
             wooord.Application app = new wooord.Application();
             Object missing = Type.Missing;
             app.Documents.Add(ref missing, ref missing, ref missing, ref missing);
             wooord.Document docec = app.ActiveDocument;
             wooord.Range range = docec.Paragraphs[docec.Paragraphs.Count].Range;
+
+            while (result.Read())
+            {
+                name = result[1].ToString();
+                mark = result[0].ToString();
+
+                one.Add(name);
+                two.Add(mark);
+            }
+
+            int len = two.Count;
+
 
 
         }
