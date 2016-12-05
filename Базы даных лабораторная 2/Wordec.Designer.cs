@@ -1,0 +1,196 @@
+﻿namespace Базы_даных_лабораторная_2
+{
+    partial class Wordec
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label1 = new System.Windows.Forms.Label();
+            this.firststudensshifr = new System.Windows.Forms.TextBox();
+            this.secondnameofsubject = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.secondnumberofgroup = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.thirdnameofsubject = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.thirdshifrsudenta = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Шифр студента";
+            // 
+            // firststudensshifr
+            // 
+            this.firststudensshifr.Location = new System.Drawing.Point(103, 10);
+            this.firststudensshifr.Name = "firststudensshifr";
+            this.firststudensshifr.Size = new System.Drawing.Size(204, 20);
+            this.firststudensshifr.TabIndex = 1;
+            // 
+            // secondnameofsubject
+            // 
+            this.secondnameofsubject.Location = new System.Drawing.Point(128, 47);
+            this.secondnameofsubject.Name = "secondnameofsubject";
+            this.secondnameofsubject.Size = new System.Drawing.Size(179, 20);
+            this.secondnameofsubject.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(13, 50);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(109, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Название предмета";
+            // 
+            // secondnumberofgroup
+            // 
+            this.secondnumberofgroup.Location = new System.Drawing.Point(103, 73);
+            this.secondnumberofgroup.Name = "secondnumberofgroup";
+            this.secondnumberofgroup.Size = new System.Drawing.Size(204, 20);
+            this.secondnumberofgroup.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(13, 76);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(80, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Номер группы";
+            // 
+            // thirdnameofsubject
+            // 
+            this.thirdnameofsubject.Location = new System.Drawing.Point(128, 134);
+            this.thirdnameofsubject.Name = "thirdnameofsubject";
+            this.thirdnameofsubject.Size = new System.Drawing.Size(179, 20);
+            this.thirdnameofsubject.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(13, 137);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(109, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Название предмета";
+            // 
+            // thirdshifrsudenta
+            // 
+            this.thirdshifrsudenta.Location = new System.Drawing.Point(103, 108);
+            this.thirdshifrsudenta.Name = "thirdshifrsudenta";
+            this.thirdshifrsudenta.Size = new System.Drawing.Size(204, 20);
+            this.thirdshifrsudenta.TabIndex = 9;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(13, 111);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(84, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Шифр студента";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(324, 8);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(109, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Первый";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(324, 47);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(109, 46);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "Второй";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(324, 108);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(109, 46);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "Третий";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // Wordec
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(445, 160);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.thirdshifrsudenta);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.thirdnameofsubject);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.secondnumberofgroup);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.secondnameofsubject);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.firststudensshifr);
+            this.Controls.Add(this.label1);
+            this.Name = "Wordec";
+            this.Text = "Wordec";
+            this.Load += new System.EventHandler(this.Wordec_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox firststudensshifr;
+        private System.Windows.Forms.TextBox secondnameofsubject;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox secondnumberofgroup;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox thirdnameofsubject;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox thirdshifrsudenta;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+    }
+}
