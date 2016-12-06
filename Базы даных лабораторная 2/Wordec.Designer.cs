@@ -171,7 +171,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.firststudensshifr);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Wordec";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Wordec";
             this.Load += new System.EventHandler(this.Wordec_Load);
             this.ResumeLayout(false);
