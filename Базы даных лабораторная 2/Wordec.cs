@@ -24,7 +24,7 @@ namespace Базы_даных_лабораторная_2
             List<String> one = new List<String>();
             List<String> two = new List<String>();
 
-            command = new dabse.OleDbCommand("Select Дисциплины.Название, Дисциплины_обучение.Балл From Дисциплины, Дисциплины_обучение, Студенты Where Дисциплины.Код = Дисциплины_обучение.Код_дисциплины and Студенты.Шифр = Дисциплины_обучение.Шифр_студента and Студенты.Шифр = " + firststudensshifr.Text, Date_baseone);
+            command = new dabse.OleDbCommand("Select Дисциплины.Название, Дисциплины_обучение.Балл From Дисциплины, Дисциплины_обучение, Студенты Where Дисциплины.Код = Дисциплины_обучение.Код_дисциплины and Студенты.Шифр = Дисциплины_обучение.Шифр_студента and Студенты.Шифр = " + firststudensshifr.Text + " order by Дисциплины_обучение.Балл, Дисциплины.Название", Date_baseone);
             dabse.OleDbDataReader result = command.ExecuteReader();
             wooord.Application app = new wooord.Application();
             Object missing = Type.Missing;
